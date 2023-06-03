@@ -11,7 +11,7 @@ import UIKit
 @available(iOS 13.0, *)
 public struct PreviewViewController<MyViewController: UIViewController>: UIViewControllerRepresentable {
     public init() {
-        
+         
     }
     public typealias UIViewControllerType = MyViewController
     public func makeUIViewController(context: Context) -> MyViewController {
