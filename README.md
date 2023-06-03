@@ -19,7 +19,7 @@ class MyViewController: UIViewController {
 // implementation 
 }
 
-struct MyPreview_Previews:PreviewProvider {
+struct MyPreviewProvider_Previews:PreviewProvider {
   static var previews: some View {
     PreviewViewController<MyViewController>()
   }
@@ -35,7 +35,7 @@ class MyTableViewCell: UITableViewCell {
 // implementation 
 }
 
-struct MyPreview_Previews:PreviewProvider {
+struct MyPreviewProvider_Previews:PreviewProvider {
   static var previews: some View {
    PreviewTableView(cellType: MyTableViewCell.self,numberOfRow:3) { index in
    // Create Cell:
@@ -56,7 +56,7 @@ class MyCustomCollection: UICollectionViewCell {
 // implementation 
 }
 
-struct MyPreview_Previews:PreviewProvider {
+struct MyPreviewProvider_Previews:PreviewProvider {
   static var previews: some View {
    PreviewColection(cellType: MyCustomCollection.self) { collection in
    // Create Collection
