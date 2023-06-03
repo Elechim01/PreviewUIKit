@@ -8,7 +8,7 @@ This package enables the preview in uikit view, the package contains 3 struct:
 ## - PreviewViewController -> for UIViewController
 
 example code:
-##Implementation for View controller
+## Implementation for View controller
 ```siwft
 // View Controller:
 import UIkit
@@ -24,7 +24,7 @@ struct MyPreview_Previews:PreviewProvider {
   }
 }
 ```
-##Implementation For TableViewCell
+## Implementation For TableViewCell
 ```siwft
 // TableViewCell:
 import UIkit
@@ -45,7 +45,7 @@ struct MyPreview_Previews:PreviewProvider {
 }
 ```
 
-##Implementation For UICollectionViewCell 
+## Implementation For UICollectionViewCell 
 ```siwft
 // TableViewCell:
 import UIkit
