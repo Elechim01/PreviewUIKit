@@ -21,8 +21,5 @@ let package = Package(
         .target(
             name: "PreviewUIKit",
             dependencies: []),
-        .testTarget(
-            name: "PreviewUIKitTests",
-            dependencies: ["PreviewUIKit"]),
     ]
 )
