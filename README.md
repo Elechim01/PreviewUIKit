@@ -1,4 +1,4 @@
-# PreviewUIKit
+# Preview in UIKit
 
 A description of this package.
 This package enables the preview in uikit view, the package contains 3 struct: 
