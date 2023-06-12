@@ -13,7 +13,7 @@ This package enables the preview in UIKit view to install:
  
 ```
  ☠️ if we have a problem to install: 
- ⚠️ if project was created by xcode 14 select project Format Xocde 13.0 
+ ⚠️ if project was created by xcode 14 select project Format Xcode 13.0 
 
 # This Package contains 3 struct: 
 
